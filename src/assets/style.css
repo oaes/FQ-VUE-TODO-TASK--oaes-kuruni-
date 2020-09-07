@@ -1,0 +1,89 @@
+.box {
+  background: #98fb98;
+  color: black;
+  width: 50%;
+  height: 170px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  overflow: hidden;
+}
+.text,
+h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+}
+.inputBox {
+  margin: 0 auto;
+  text-align: center;
+}
+input[type="text"] {
+  padding: 8px;
+  margin-top: 30px;
+  width: 250px;
+  border: 0px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+input[type="text"]:focus {
+  outline: none;
+}
+.btn {
+  background: dodgerblue;
+  font-size: 14px;
+  font-weight: 800;
+  border: none;
+  padding: 8px;
+  margin-left: 5px;
+  color: white;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  cursor: pointer;
+}
+.btn:focus {
+  outline: none;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  width: 50px;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.todo-list {
+  max-height: 210px;
+  overflow-y: auto;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 2px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  background: lightgray;
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+  padding: 15px 15px 15px 10px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
